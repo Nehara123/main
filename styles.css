@@ -1,0 +1,383 @@
+/*GLOBAL SETTING
+-----------------------------------------
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    margin-left: auto;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+#wrapper {
+    position: relative;
+    max-width: 1349px;
+    width: 100%;
+    margin: 0 auto;
+}
+#one {
+    position: relative;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+a {
+    color: #00008B;
+}
+
+a :visited {
+    color: #F5F5DC;
+}
+#body {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* HEADER
+----------------------------------------
+*/
+
+header {
+	background: #ffffff url("images/banner_logo_tag.jpg") no-repeat top center/cover;
+	height: 440px;
+	color: #ffffff;
+}
+	
+header h1 {
+	visibility: hidden;
+}
+
+header img {
+	position: relative;
+	top: 0px; left: 20px;
+	z-index: 999;
+    overflow: hidden;
+}
+
+/* NAVIGATION
+----------------------------------------
+*/
+
+nav {
+	background-color: rgba(0,0,0,0.60);
+	position: absolute;
+	top: 0px; left: 0px;
+	width: 100%;  /* = 1200px */
+	padding-top: 35px;
+}
+
+nav a {
+	color: #ffffff; /* white */
+	text-decoration: none;
+	padding: 0px 20px 0px 20px;
+}
+
+nav a:hover {
+	background-color: #000040;
+}
+
+nav a:visited {
+	color: #ffffff;
+}
+
+nav ul {
+	padding-left: 200px;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+nav span {
+    padding: 10px 20px 15px 20px;
+	background-color: #000040;
+    color: #ffffff;
+}
+
+/* CONTENT
+------------------------------
+*/
+#first {
+    background-color: #F7FCA7;
+    position: relative;
+    padding: 30px 0px;
+    text-align: center;
+    overflow: hidden;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    margin-right: 0px;
+    margin-left: 0px;
+    
+}
+
+/* METHOD 1
+----------------------------------
+*/
+#one {
+    background-color: #E4DEFF;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#bulletone {
+    background-color: #E4DEFF;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: left;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px;    
+}
+/* METHOD 2
+--------------------------------
+*/
+#two {
+    background-color: #EBEBFF;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px; 
+}
+#bullettwo {
+    background-color: #EBEBFF;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: left;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px; 
+}
+/* METHOD 3
+---------------------------------
+*/
+#three {
+    background-color: #FDFFD1;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px;     
+}
+#bulletthree {
+    background-color: #FDFFD1;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: left;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px;     
+}
+/* METHOD 4
+---------------------------------
+*/
+#four {
+    background-color: #F9EBFC;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px;  
+}
+#bulletfour {
+    background-color: #F9EBFC;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: left;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px;  
+}
+/* METHOD 5
+--------------------------------
+*/
+#five {
+    background-color: #BEEDDD;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px;  
+}
+#bulletfive {
+    background-color: #BEEDDD;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: left;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px;  
+}
+/* CONTENT 2
+-------------------------------------
+*/
+#content {
+    max-width: 670px;
+    padding: 50px 70px 60px;
+    position: relative;
+    z-index: 3;
+    top: 70px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 25px 20px 15px;
+    display: block;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 90px;
+    background: #f3EFFD;
+    background-size: 100%;
+    width: 90%;
+}
+
+/* APPLY
+--------------------------------------
+*/
+#regForm {
+  background-color: #f3EFFD;
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+ font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: sans-serif;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+tab {
+  display: none;
+}
+
+button {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+prevBtn {
+    background-color: #bbbbbb;
+}
+/* Make circles that indicate the steps of the form: */
+step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+step.finish {
+  background-color: #04AA6D;
+}
+
+/* BLOCKQUOTE
+------------------------------------
+*/
+blockquote {
+    background: #FFDEFD;
+    margin-bottom: 0;
+    align-self: flex-end;
+    padding: 2px 2px 1px 1px;
+    font-size: 0.7em;
+}
+
+/* FOOTER
+-----------------------------------
+*/
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 20px;  
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+footer :hover {
+    text-decoration-color: blue;
+}
+
+/*MEDIA QUERIES
+------------------------------------
+*/
+@media screen and (max-width: 1000px) {
+    #wrapper {
+        width: 100%
+    }
+    footer {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 800px) {
+    header {
+        background: #ffffff url("images/banner_logo_tag.jpg") no-repeat top center/cover;
+	   height: 440px;
+    }
+    header img {
+        width: 20%; height: auto;
+    }
+    nav { padding-top: 0px;}
+    
+    nav ul {padding-left: 200px; }
+}
